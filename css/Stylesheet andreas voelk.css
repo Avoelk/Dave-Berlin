@@ -1,30 +1,30 @@
 @charset "utf-8";
 
 body {
-  background-image: url( "../img/AV-BG-HP-Entwurf-7-angepasst-2.jpg");
+  background-image: url( "../img/AV-BG-HP-Entwurf-18-11-4.jpg");
 }
 
 @media (min-width: 500px) {
   body {
-    background-image: url( "../img/AV-BG-HP-Entwurf-7-angepasst-2.jpg");
+    background-image: url( "../img/AV-BG-HP-Entwurf-18-11-4.jpg");
   }
 }
 
 @media (min-width: 1000px) {
   body {
-    background-image: url( "../img/AV-BG-HP-Entwurf-7-angepasst-2.jpg");
+    background-image: url( "../img/AV-BG-HP-Entwurf-18-11-4.jpg");
   }
 }
 
 @media (min-width: 1500px) {
   body {
-    background-image: url( "../img/AV-BG-HP-Entwurf-7-angepasst-2.jpg");
+    background-image: url( "../img/AV-BG-HP-Entwurf-18-11-4.jpg");
   }
 }
 
 @media (min-width: 2000px) {
   body {
-    background-image: url( "../img/AV-BG-HP-Entwurf-7-angepasst-2.jpg");
+    background-image: url( "../img/AV-BG-HP-Entwurf-18-11-4.jpg");
   }
 }
 
@@ -137,82 +137,6 @@ h4 {
 
 
 
-/* ANIMATION BACKGROUND PICTURE*/
-
-/**.picture {
-
-    color: rgba(176,238,255,0.20);
-
-    -webkit-animation: bgColor 60s ease-in-out infinite;
-
-    /* Chrome, Safari */
-
-    -moz-animation: bgColor 60s ease-in-out infinite;
-
-    /* Firefox */
-
-    -o-animation: bgColor 60s ease-in-out infinite;
-
-    /* Opera */
-
-    animation: bgColor 60s ease-in-out infinite;
-
-    min-height: 100vh;
-} **/
-
-@-webkit-keyframes bgColor {
-    0% {
-        background:rgba(172,118,255,0.17);
-    }
-    50% {
-        background:rgba(65,32,80,0.19);
-    }
-    100% {
-        background:rgba(172,118,255,0.17);
-    }
-}
-
-/* Firefox */
-
-@-moz-keyframes bgColor {
-    0% {
-        background:rgba(172,118,255,0.17);
-    }
-    50% {
-        background:rgba(65,32,80,0.19);
-    }
-    100% {
-        background:rgba(172,118,255,0.17);
-    }
-}
-
-/* Opera */
-
-@-o-keyframes bgColor {
-    0% {
-        background:rgba(172,118,255,0.17);
-    }
-    50% {
-        background:rgba(222,150,255,0.19);
-    }
-    100% {
-        background:rgba(172,118,255,0.17);
-    }
-}
-
-/* Standard syntax */
-
-@keyframes bgColor {
-    0% {
-        background:rgba(255,192,148,0.26);
-    }
-    50% {
-        background:rgba(65,32,80,0.19);
-    }
-    100% {
-        background:rgba(255,192,148,0.26);
-    }
-}
 
 
 
@@ -284,144 +208,7 @@ Header Bereich
   }
     
   
-  /*GALERIE */
-
-.sliderElements,
-.sliderElements figure,
-.sliderControls {
-    margin: 0;
-}
- 
-.sliderElements:after {
-    content: ".";
-    display: block;
-    height: .1px;
-    clear: both;
-    visibility: hidden;
-    font-size: 0;
-    overflow: hidden;
-}
- 
-.cssSlider {
-    overflow-x: hidden;
-}
- 
-.sliderElements {
-    list-style: none;
-    position: relative;
-    left: 0;
-    width: 800%;
-    margin-bottom: .8em;
-    padding: 0;
-    -webkit-transition: left .8s ease-in-out;
-    -moz-transition: left .8s ease-in-out;
-    -o-transition: left .8s ease-in-out;
-    transition: left .8s ease-in-out;
-
-}
- 
-.sliderElements > li {
-    float: left;
-    width: 12.5%;
-    position: relative;
-}
- 
-#slide02:checked ~ .sliderElements {
-    left: -100%;
-}
- 
-#slide03:checked ~ .sliderElements {
-    left: -200%;
-}
- 
-#slide04:checked ~ .sliderElements {
-    left: -300%;
-}
- 
-#slide05:checked ~ .sliderElements {
-    left: -400%;
-}
-
-#slide06:checked ~ .sliderElements {
-    left: -500%;
-}
-
-#slide07:checked ~ .sliderElements {
-    left: -600%;
-}
-
-#slide08:checked ~ .sliderElements {
-    left: -700%;
-}
-
-/* Bildunterschrift auf dem Bild positionieren */
-.sliderElements figcaption {
-    display: block;
-    color: #fff;
-    position: absolute;
-    left: 10px;
-    bottom: 1em;
-    padding: .4em;
-    background: rgba(0,0,0,0.00);
-  border-radius:2px;
-}
- 
-/* Bilder responsive */
-.sliderElements img {
-    width: 100%;
-    height: auto;
-  opacity:0.98;
-  border-radius:10px;
-}
- 
- 
-/* inputs aus dem Blickfeld schieben */
-.cssSlider input {
-    position: absolute;
-    left: -99999px;
-}
- 
-/* mittige Ausrichtung der Controls - funktioniert im Zusammenspiel mit inline-block */
-.sliderControls {
-    text-align: center;
-}
- 
-/* Controls nebeneinander bringen */
-.sliderControls li {
-    display: inline-block;
-}
- 
-/* Controls auf einheitliche Maße bringen und die Ecken abrunden */
-.sliderControls label {
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-    border-radius: 50%;
-    display: block;
-    cursor: pointer;
-    background: rgba(158,0,0,1.00);
-    color: rgba(158,0,0,1.00);
   
-}
- 
-/* Attributselektor und indirekter Nachfahrkombinator zum ansteuern der labels */
-.sliderControls label:hover,
-#slide01:checked ~ .sliderControls label[for="slide01"],
-#slide02:checked ~ .sliderControls label[for="slide02"],
-#slide03:checked ~ .sliderControls label[for="slide03"],
-#slide04:checked ~ .sliderControls label[for="slide04"],
-#slide05:checked ~ .sliderControls label[for="slide05"],
-#slide06:checked ~ .sliderControls label[for="slide06"],
-#slide07:checked ~ .sliderControls label[for="slide07"]
-#slide08:checked ~ .sliderControls label[for="slide08"]
- {
-    background:rgba(255,197,8,1.00);
-    color:rgba(216,53,0,1.00);
-}
-
-
-
 
 
 /** Veranstaltungsbereich */
@@ -466,7 +253,7 @@ img {
 /* Gestaltung der toggle Schaltflächen */
 .toggle label {
   display: block;
-  background: rgba(6,3,3,0.72);
+  background: rgba(0,0,0,0.69);
   color: #fff;
   padding-top: 13px;
   padding-bottom: 1px;
@@ -498,7 +285,7 @@ img {
 }
 
 .toggle label:hover {
-    background:rgba(34,79,0,0.13);
+    background:rgba(35,79,0,0.16);
 }
 
 .toggle h3 {
