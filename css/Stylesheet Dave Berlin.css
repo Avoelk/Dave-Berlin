@@ -104,8 +104,9 @@ h4 {
 
   }
 
-
-
+box	{
+	background-color:  rgba(0,0,0,1.00);
+}
 
 .start1 {
   width:100%;
@@ -565,7 +566,7 @@ i:active {
   }
   
 i:hover {
-    color: rgba(0,0,0,1.00);
+    color: rgba(171,147,180,1.00);
     font-size: 180%;
     transition: 2s;
   }
@@ -634,9 +635,10 @@ a.extern:hover {
 }
 
 .shop {
-	 font-size: 5.5rem;
+	 font-size: 3.5rem;
 	text-align: center;
 	letter-spacing: 1.8rem;
+	
 }
 
 .social {
